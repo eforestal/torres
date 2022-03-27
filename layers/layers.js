@@ -75,7 +75,7 @@ var lyr_TORRESINCENDIOS_3 = new ol.layer.Vector({
                 title: '<img src="styles/legend/TORRESINCENDIOS_3.png" /> TORRES INCENDIOS'
             });
 
-lyr_GoogleHybrid_0.setVisible(false);lyr_CartografadelIGN_1.setVisible(true);lyr_Provincias_2.setVisible(true);lyr_TORRESINCENDIOS_3.setVisible(true);
+lyr_GoogleHybrid_0.setVisible(true);lyr_CartografadelIGN_1.setVisible(true);lyr_Provincias_2.setVisible(true);lyr_TORRESINCENDIOS_3.setVisible(true);
 var layersList = [lyr_GoogleHybrid_0,lyr_CartografadelIGN_1,lyr_Provincias_2,lyr_TORRESINCENDIOS_3];
 lyr_Provincias_2.set('fieldAliases', {'ID': 'ID', 'CODINE': 'CODINE', 'NOMBRE': 'NOMBRE', });
 lyr_TORRESINCENDIOS_3.set('fieldAliases', {'TORRE': 'TORRE', 'PROVINCIA': 'PROVINCIA', 'ID': 'ID', 'X_25830': 'X_25830', 'Y_25830': 'Y_25830', });
