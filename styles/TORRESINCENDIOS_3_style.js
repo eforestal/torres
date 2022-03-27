@@ -9,10 +9,10 @@ var style_TORRESINCENDIOS_3 = function(feature, resolution){
     var value = ""
     var labelText = "";
     size = 0;
-    var labelFont = "10.4px \'Ubuntu\', sans-serif";
+    var labelFont = "13.0px \'Ubuntu\', sans-serif";
     var labelFill = "#000000";
     var bufferColor = "#ffffff";
-    var bufferWidth = 1.0;
+    var bufferWidth = 1.5;
     var textAlign = "left";
     var offsetX = 8;
     var offsetY = 3;
@@ -22,13 +22,13 @@ var style_TORRESINCENDIOS_3 = function(feature, resolution){
     }
     var style = [ new ol.style.Style({
         image: new ol.style.Icon({
-                  imgSize: [580, 580],
-                  scale: 0.04482758620689655,
+                  imgSize: [24, 24],
+                  scale: 1.0833333333333333,
                   anchor: [13, 13],
                   anchorXUnits: "pixels",
                   anchorYUnits: "pixels",
                   rotation: 0.0,
-                  src: "styles/poi_tower_water.svg"
+                  src: "styles/tower-fire_blue.svg"
             }),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
