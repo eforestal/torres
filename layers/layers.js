@@ -57,7 +57,7 @@ var lyr_Provincias_2 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_Provincias_2, 
                 style: style_Provincias_2,
-                interactive: true,
+                interactive: false,
                 title: '<img src="styles/legend/Provincias_2.png" /> Provincias'
             });
 var format_TORRESINCENDIOS_3 = new ol.format.GeoJSON();
