@@ -75,20 +75,10 @@ var map = new ol.Map({
 
 var layerSwitcher = new ol.control.LayerSwitcher({tipLabel: "Layers"});
 map.addControl(layerSwitcher);
+layerSwitcher.hidePanel = function() {};
+layerSwitcher.showPanel();
 
-    var searchLayer = new SearchLayer({
-      layer: lyr_TORRESINCENDIOS_3,
-      colName: 'TORRE',
-      zoom: 10,
-      collapsed: true,
-      map: map
-    });
 
-    map.addControl(searchLayer);
-    document.getElementsByClassName('search-layer')[0]
-    .getElementsByTagName('button')[0].className +=
-    ' fa fa-binoculars';
-    
 map.getView().fit([-966573.331601, 4859300.101297, -20480.627267, 5362769.358836], map.getSize());
 
 var NO_POPUP = 0
